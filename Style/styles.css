@@ -1,0 +1,15 @@
+/* Imposta lo sfondo blu chiaro per tutta la pagina e il font Arial per tutto il testo */
+html {
+    background-color: lightblue;    /* Colore di sfondo della pagina: azzurro chiaro */
+    font-family: "Arial", sans-serif; /* Tipo di carattere: Arial, se non disponibile usa un font sans-serif generico */
+}
+
+/* Applica lo stesso stile sia ai titoli h1 che ai paragrafi p */
+h1, p {                                   /* Selettore multiplo: seleziona tutti gli h1 E tutti i p */
+    color: darkblue;                    /* Colore del testo: blu scuro */
+    background-color: lightyellow;      /* Colore di sfondo dietro al testo: giallo chiaro */
+    border: solid 2px darkblue;         /* Bordo: linea continua spessa 2 pixel di colore blu scuro */
+    width: 35%;                           /* Larghezza dell'elemento: 35% della larghezza del contenitore genitore */
+    margin: 1em auto;                     /* Margine esterno: 1em sopra e sotto, 'auto' a sinistra e destra per centrare l'elemento */
+    padding: 20px;                        /* Spazio interno: 20 pixel di distanza tra il bordo e il contenuto */
+}
